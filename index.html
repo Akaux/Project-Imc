@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imc Project</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Vamos Calcular Seu Imc</h1>
+      <h2>Imc</h2>
+
+      <div class="linha-imc1">
+        <span>Menos do que 18,5</span>
+        <span class="descricao">Abaixo do Peso</span>
+      </div>
+      <div class="linha-imc2">
+        <span>Entre 18,5 e 24,9</span>
+        <span class="descricao">Peso normal</span>
+      </div>
+      <div class="linha-imc3">
+        <span>Entre 25 e 24,9</span>
+        <span class="descricao">Sobrepeso</span>
+      </div>
+      
+      <div class="linha-imc4">
+        <span>Entre 30 e 34,9</span>
+        <span class="descricao">Obsidade grau 1</span>
+      </div>
+      <div class="linha-imc5">
+        <span>Entre 35 e 39,9</span>
+        <span class="descricao">Obsidade grau 2</span>
+      </div>
+      <div class="linha-imc6">
+        <span>Mais que 40</span>
+        <span class="descricao">Obsidade grau 3</span>
+      </div>
+
+      <h1>Calcule seu imc</h1>
+    <form class="form" action="" method="get">
+ <label for="input-teste1">Peso</label>
+ <input type="text" id="inputPeso">
+
+ <label for="input-teste2">Altura</label>
+ <input type="text" id="inputAltura">
+
+ <button type="submit">Enviar</button> 
+
+
+
+
+<div class="resultado"></div>
+    </form>
+      
+    </section>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
